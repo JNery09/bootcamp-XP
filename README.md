@@ -7,6 +7,8 @@ MODULOS
 
 [Como a computação em nuvem funciona]
 
+--------------------------------------
+
 Orientado para explicação de como a nuvem a funciona e formas mais simples de explicar como a outros o funcionamento da nuvem (Cloud)
 
 Cloud - Ambiente que pode usar um certo serviço computacional pago em qualquer lugar ou em qualquer momento.
@@ -28,8 +30,8 @@ IMAGEM [Screenshot_4.png]
 
 IaaS infra estrutura a seu serviço - aluguel de recursos de infraestrutura - Consumir recursos de outras estruturas
 
+***********************************
 
---------------------------------------
 O que é Cloud
 ☁️ Cloud Computing (Computação em Nuvem)
 A computação em nuvem é um modelo de entrega de serviços de tecnologia em que recursos como armazenamento, processamento de dados, software, redes e muito mais são fornecidos pela internet, em vez de ficarem em servidores e data centers próprios. Com a nuvem, empresas e usuários podem acessar e utilizar esses recursos sob demanda, pagando apenas pelo que utilizam. Isso elimina a necessidade de investir em infraestrutura física cara e difícil de manter. A computação em nuvem permite escala, flexibilidade e agilidade, além de possibilitar o acesso a esses recursos de qualquer lugar e a qualquer momento. Os principais tipos de nuvem incluem a pública, a privada e a híbrida, cada uma com suas características e aplicações específicas.
