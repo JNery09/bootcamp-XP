@@ -99,6 +99,7 @@ Alta disponibilidade
   tudo depende do quanto o seu serviço precisa ficar disponovel
   Caso passe o tempo estimado de indiponibilidade ultrapasse o contratado, é reembolsado com  creditos de ultilização na plataforma
   Alta disponibilidade se concentra em garantir a disponibilidade maxima, independentemente de interrupções ou eventos que possam ocorrer
+  Imagem [Screenshot_9.png]
 
 
 Escalabilidade 
@@ -139,6 +140,8 @@ Gerenciabilidade
   
 ------------------------------------------------------------------------------------------------------------------
 [Beneficios da Nuvem - Laboratório]
+
+Criação de uma maquina virtual no Azure onde foi informado zonas de disponibildiade e as opçoes que existem.
 
 
 
