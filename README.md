@@ -94,8 +94,51 @@ com isso
 
 [Beneficios da computação em nuvem]
 
+Alta disponibilidade
+  Recursos diposniveis sempre que necessario, sistema online durante todos o tempo, caso haja perca de serviço existe um tempo de SLA que é acordado durante a contratação
+  tudo depende do quanto o seu serviço precisa ficar disponovel
+  Caso passe o tempo estimado de indiponibilidade ultrapasse o contratado, é reembolsado com  creditos de ultilização na plataforma
+  Alta disponibilidade se concentra em garantir a disponibilidade maxima, independentemente de interrupções ou eventos que possam ocorrer
 
 
+Escalabilidade 
+  Capacidade de ajustar recursos para atender as demandas que surge, adicionar recursos para lidar com a demanada
+  Com as escalada vertical se voce estivesse precisando de mais recursos seria aumentar, adicionar CPU,s ou RAM a Maquina virtual 
 
+
+Elasticidade
+  capacidade do ambiente aumentar ou diminuir dependendo da quantidade de requicições ou acessos no ambiente
+  conseguindo aumentar ou diminuir maquinas virtuais ou recursos automaticamnete ou manualmente dependendo da demanda
+  
+
+Confiabilidade
+  Sistema que se recupera de falhas e continua trabalhando, fazendo com que exista ambientes redundantes em outros locais do mundo 
+
+
+Previsibilidade
+  Confiança na Nuvem que ira funcionar tudo de acorodo o planejado tanto em desempenho e custos
+
+
+Segurança
+  A novem possuem recursos de segurnaça que atenda as necessidades de segurança, mas a implementação de muitas dessas proteção devem ser aplicados pelo clientes
+  Atualização de paths de segurança, mesmo a maquina seja da fornecedor o acesso a maquina é do clinte
+  
+
+Governança
+  Auditoria baseada em nuvem ajuda a sinalizar qualquer recursos que esteja fora de conformidade e com seus padrões corporativos e fornece estratégis de mitigação
+  Padrões de ultilização de recursos
+
+
+Gerenciabilidade
+  Facilidade de gerenciar os recursos para os usuarios, pelo portal web, por linha de comando 
+  Escalar automaticamente a implementação de recursos com base na necessidade 
+  Implementar recursos com base em um modelo pré configurado, removendo a necessidade de configurações manual
+    * usando API's
+    * usando o PowerShell
+
+  
 ------------------------------------------------------------------------------------------------------------------
 [Beneficios da Nuvem - Laboratório]
+
+
+
