@@ -1,11 +1,12 @@
 # bootcamp-XP
 XP Inc. - Cloud com Inteligência Artificial
 ----------------------------------------------------------------------------
-----------------------------------------------------------------------------
+
 
 MODULOS
 
 [Como a computação em nuvem funciona]
+
 Orientado para explicação de como a nuvem a funciona e formas mais simples de explicar como a outros o funcionamento da nuvem (Cloud)
 
 Cloud - Ambiente que pode usar um certo serviço computacional pago em qualquer lugar ou em qualquer momento.
@@ -47,7 +48,7 @@ Desvantagens: Requer gestão de servidores e configurações, mais responsabilid
 
 
 ------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------
+
 [Introdução a computação em nuvem]
 
 
@@ -55,7 +56,7 @@ Desvantagens: Requer gestão de servidores e configurações, mais responsabilid
 
 
 ------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------
+
 [Beneficios da computação em nuvem]
 
 
