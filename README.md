@@ -5,7 +5,7 @@ XP Inc. - Cloud com Inteligência Artificial
 
 MODULOS
 
-[Como a computação em nuvem funciona]
+[Como a Computação em Nuvem Funciona]
 
 --------------------------------------
 
@@ -51,10 +51,43 @@ Desvantagens: Requer gestão de servidores e configurações, mais responsabilid
 
 ------------------------------------------------------------------------------------------------------------------
 
-[Introdução a computação em nuvem]
+[Introdução a computação em nuvem] - Valeria Baptista
+
+Imagem [Screenshot_5.png]
+
+Certificação de entrada AZ900 - certificação inicial para o mundo Microsoft Cloud
+
+Computação e nuvem - é o fornecimento de serviços de computação pela internet, habilitando inovações rapidas, recursos flexiveis e economias de escala.
+Criar, editra e exluir ambientes inteiros atravez de um portal na internet de uma forma extremamente rapida
+
+os custso do embinete cloud vem todos os meses na fatura do cartão de credito, pagando somente pelo serviço a ser usado 
 
 
+Modelos de Nuvem
 
+  Nuvem Privada - ambiente 100% on premises, empresa cria seu ambiente somente para seu uso 
+  Imagem [Screenshot_6.png]
+
+  Nuvem Publica - Entrega de seerviços de recrursos atravez de um unico provider - ambiente cloud montado para outras empresas usar os recursos 
+  Imagem [Screenshot_7.png]
+
+  Nuvem Hibrida - Junção dos dois ambientes com uma empresa com servidores recursos locais e tendo comnicação com o ambiente Cloud
+  Imagem [Screenshot_8.png]
+
+CapEx e OpEx
+
+[Despessas de Capital - Capex] - Gasto inicial de dinheiro em infraestrutura fisica, se reduz com o tempo - On Premises
+[Despesas Operacionais - Opex] - Gastos com produtos e serviços de acordo o funcionanento, pode ser cobrado imediamente - Cloud
+
+
+Modelo baseado em consumo
+
+Os provedores de serviço em nuvem operam em modelo baseado no consumo, significa que os usuarios so pagam somente os recursos que usam
+com isso
+
+* Melhor previsão de custos
+* são fornecidos preços e serviços para recursos individuais
+* A cobrança é feita com base no uso real 
 
 
 ------------------------------------------------------------------------------------------------------------------
