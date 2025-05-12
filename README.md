@@ -139,9 +139,45 @@ Gerenciabilidade
 
   
 ------------------------------------------------------------------------------------------------------------------
-[Beneficios da Nuvem - Laboratório]
+[Criando máquinas Virtuais na Azure - Laboratório]
 
 Criação de uma maquina virtual no Azure onde foi informado zonas de disponibildiade e as opçoes que existem.
+
+------------------------------------------------------------------------------------------------------------------
+
+[Tipos de Serviço de Nuvem na Azure]
+
+IaaS, PaaS e SaaS na Azure
+
+IaaS (Infrastructure as a Service)
+  Imagem [Screenshot_10.png]
+  Recursos ou serviços onde os ususarios possuem mais acesos aos recursos finais, mais gestão do recursos, maior liberdade para usar
+
+Paas (Platform as a Service)
+  Imagem [Screenshot_11.png] 
+  Gerencia a aplicação não tem acesso ao servidor somente o recursos que esta em execução
+
+SaaS (Software as a Service)
+  Imagem [Screenshot_12.png]
+  Aplicativos apss e microserviços como uso, acesso apenas a algum recurso final de gerenciamento, onde a plataforma ja existe, o software ja esta funcionando e o usuario so quer usar o recurso, onde a liberação é definida a nivel de licença para melhor funcionamento e liberação dos recursos (Teams, office 365)
+
+
+Modelo de responsabilidade compartilhada
+Imagem [Screenshot_13.png]
+
+Onde cada nivel de serviço possui riscos compartilhados com os usuarios
+
+
+------------------------------------------------------------------------------------------------------------------
+
+[Configurando uma instância de Banco de Dados na Azure]
+
+Este laboratório tem como objetivo praticar o processo de configuração de uma instância de Banco de Dados na plataforma Microsoft Azure
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
