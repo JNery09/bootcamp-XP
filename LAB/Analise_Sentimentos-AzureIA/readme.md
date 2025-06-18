@@ -62,3 +62,86 @@ Com o arquivo transcrito, você poderá:
 ---
 
 A solução **Speech da Microsoft** é uma poderosa ferramenta de acessibilidade, automação e produtividade, trazendo inteligência artificial aplicada à comunicação por voz de forma simples e eficiente.
+
+---
+---
+# Conhecendo o Language Studio
+
+# Language Studio Microsoft – Análise de Sentimentos com IA
+
+## O que é o Language Studio?
+
+O **Language Studio** é uma plataforma da Microsoft que permite aplicar modelos de inteligência artificial para análise semântica de textos ou falas. Com ele, é possível identificar **sentimentos**, **intenções** e até mesmo **opiniões** contidas em mensagens. Essa ferramenta é ideal para empresas que desejam entender como seus clientes estão se sentindo com base em feedbacks e interações escritas ou faladas.
+
+Um exemplo prático: imagine uma **rede de hotéis** que deseja compreender o que os hóspedes acharam da estadia. Através do Language Studio, é possível analisar essas mensagens e extrair uma **visão clara do sentimento** por trás do conteúdo, facilitando tomadas de decisão baseadas em dados.
+
+---
+
+## Primeiros Passos
+
+### Acessando o Portal Azure
+
+Para começar, acesse o portal do Azure:
+
+ [portal.azure.com](https://portal.azure.com)
+
+Em seguida, crie um novo recurso:
+
+1. Vá em: `Criar Recurso` > `AI + Machine Learning` > `Serviço de Idioma`
+2. Configure o nome do recurso, grupo de recursos, região e tipo de plano.
+3. Clique em **Criar** para provisionar o serviço.
+
+---
+
+## Acessando o Language Studio
+
+Com o recurso criado, acesse o Language Studio pelo link:
+
+ [language.cognitive.azure.com](https://language.cognitive.azure.com)
+
+Esse é o ambiente onde você pode utilizar as funcionalidades cognitivas, como:
+
+- Classificação de Texto
+- Extração de Entidades
+- Detecção de Idioma
+- Análise de Sentimento
+
+---
+
+## Analisando Sentimentos e Opiniões
+
+1. No menu lateral, selecione **Classificação de Texto** > **Análise de Sentimentos e Opiniões**.
+2. Selecione o idioma do texto que será analisado.
+3. Cole o texto desejado no campo de entrada.
+4. Clique em **Selecionar** para iniciar o processamento.
+
+Abaixo do campo de entrada, você verá o resultado da análise com:
+
+- **Classificação de sentimento geral** (Positivo, Negativo ou Neutro)
+- **Pontuação de confiança**
+- **Opiniões por frases ou parágrafos**
+- Destaques de entidades com avaliações específicas
+
+---
+
+## Aplicações Práticas
+
+O Language Studio pode ser utilizado em diversas áreas:
+
+- Atendimento ao cliente
+- Avaliação de satisfação de usuários
+- Análise de feedbacks em redes sociais
+- Classificação de e-mails e formulários abertos
+- Monitorar reputação em redes sociais
+- Automatizar relatórios com insights qualitativos
+
+
+
+---
+
+## Conclusão
+
+O **Language Studio da Microsoft** é uma ferramenta poderosa para transformar dados de texto em insights valiosos. Ele permite à sua empresa compreender melhor o comportamento, sentimento e opinião dos clientes com base em suas mensagens, de forma automatizada e inteligente.
+
+Referência:  
+[Documentação Oficial - Microsoft Learn](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
