@@ -1,1 +1,107 @@
-aqui
+
+# Introdução ao Azure AI Search
+
+O **Azure Cognitive Search** (ou **AI Search**) é um serviço da Microsoft que permite criar mecanismos de busca inteligentes, com uso de inteligência artificial para análise e enriquecimento de dados não estruturados como documentos e imagens. Ele suporta recursos como *semantic search*, *vector search* e *Retrieval-Augmented Generation (RAG)*.
+
+---
+
+## Etapas para configurar e utilizar o Azure AI Search
+
+### 1. Criar os Recursos Necessários
+
+#### 🔹 a) Serviço de Busca (Azure AI Search)
+
+1. Acesse o portal do Azure.
+2. Vá em **Criar Recurso** > **AI + Machine Learning** > **Azure AI Search**.
+3. Configure:
+   - **Nome**: único e sem espaços.
+   - **Região**: mesma dos demais serviços.
+   - **Plano (Tier)**: selecione **Básico (Basic)**.
+
+#### 🔹 b) Serviço Cognitivo (Azure AI Services)
+
+1. No portal do Azure:
+2. Vá em **Criar Recurso** > **AI + Machine Learning** > **Azure AI Services**.
+3. Utilize a mesma **região** e **grupo de recursos** do serviço de busca.
+
+#### 🔹 c) Conta de Armazenamento (Blob Storage)
+
+1. Vá em **Conta de Armazenamento** > **Criar**.
+2. Na aba **Básico**:
+   - **Resource Group**: selecione o grupo criado.
+   - **Nome da conta**: único e sem caracteres especiais.
+   - **Redundância**: escolha **Locally-redundant storage (LRS)**.
+3. Após criado:
+   - Vá em **Configurações** > **Configurações de acesso anônimo ao blob**.
+   - Altere de `Disabled` para `Enabled`.
+
+---
+
+### 2. Criar Contêiner e Adicionar Dados
+
+1. No armazenamento, acesse a seção **Contêineres**.
+2. Crie um novo contêiner:
+   - Nome em letras **minúsculas**, **sem símbolos**.
+3. Faça o **upload dos dados** (ex: PDFs, relatórios, imagens, etc.).
+
+---
+
+### 3. Importar os Dados para o Azure AI Search
+
+1. Acesse o recurso **Azure AI Search**.
+2. Clique em **Import Data**.
+3. Configure:
+   - Fonte de dados: aponte para o **Blob Storage** e o **contêiner** criado.
+   - Adicione um **Skillset** com as seguintes habilidades:
+     - OCR (extração de texto de imagens)
+     - Extração de entidades
+     - Análise de sentimentos
+     - Frases-chave
+     - Detecção de idioma
+     - Análise de imagens
+4. Crie um **Index** com os campos extraídos.
+5. Configure e execute o **Indexador**.
+
+---
+
+### 4. Testar com Search Explorer
+
+Use o **Search Explorer** no portal Azure para realizar buscas:
+
+- Listar todos os documentos:
+  ```
+  search=*&$count=true
+  ```
+
+- Buscar por termos:
+  ```
+  search="nome_do_usuário"
+  ```
+
+- Filtrar por sentimentos:
+  ```
+  search=sentiment:"negative"
+  ```
+
+---
+
+## Recursos Avançados
+
+- **Busca Vetorial (Vector Search)**: permite buscar por similaridade semântica usando embeddings.
+- **RAG (Retrieval-Augmented Generation)**: usa LLMs junto com AI Search para gerar respostas contextualizadas.
+- **Knowledge Store**: salva os dados enriquecidos (ex: JSON, frases, imagens) para visualização com Power BI ou análise via API.
+
+---
+
+## Resumo do Processo
+
+1. Criar:
+   - Azure AI Search
+   - Azure AI Services
+   - Conta de Armazenamento
+2. Criar contêiner no Storage e fazer upload dos dados.
+3. Importar dados com o assistente de importação (Import Data).
+4. Adicionar skillset de IA para enriquecer os dados.
+5. Executar o indexador e consultar com Search Explorer.
+6. (Opcional) Implementar buscas vetoriais ou integração com LLMs.
+
