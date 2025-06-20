@@ -1,1 +1,108 @@
-aqui
+Descrição do Desafio
+Este laboratório tem como objetivo explorar as funcionalidades do Copiloto e das ferramentas da OpenAI, com ênfase nos filtros de conteúdo e nos recursos de criação assistida por inteligência artificial. O entregável consiste em um repositório organizado com exemplos de uso, prompts aplicados e anotações sobre os aprendizados adquiridos.
+
+## Tema Geral:
+Exploração prática de recursos de **IA Generativa** com foco em **Azure OpenAI**, uso de **prompts**, compreensão de **content filtering** e aplicabilidade em soluções do mundo real.
+
+---
+
+## 🔹 1. [Lab 12 - Introduction to Generative AI](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/12-generative-ai.html)
+
+### Objetivo:
+Introduzir os conceitos de **Inteligência Artificial Generativa (GenAI)** e como ela pode ser usada para criar conteúdo original baseado em dados anteriores.
+
+### 🧠 Principais Conceitos:
+- **Modelos GenAI**: Podem criar imagens, textos, códigos, áudios e vídeos.
+- **LLMs (Modelos de Linguagem de Grande Escala)**: Como o GPT-3 e GPT-4, são capazes de compreender e gerar linguagem natural.
+- **Prompt Engineering**: A habilidade de estruturar comandos (prompts) para obter a melhor resposta do modelo.
+
+### Exemplos de Uso:
+- Geração de descrições automáticas para produtos de e-commerce.
+- Criação de resumos automáticos de relatórios extensos.
+- Suporte a atendentes virtuais em bancos e serviços públicos.
+
+### Prompts Aplicados:
+```
+"Escreva um resumo sobre a Revolução Francesa para alunos do ensino médio."
+"Crie uma introdução para uma apresentação sobre energias renováveis."
+"Liste 5 ideias de nomes para um aplicativo de controle financeiro pessoal."
+```
+
+### Anotações sobre Aprendizado:
+- Pequenas alterações no prompt podem alterar completamente a resposta.
+- O uso de linguagem específica e orientações claras melhora a qualidade da geração.
+- É fundamental entender o **contexto do público-alvo** para modelar a resposta.
+
+---
+
+## 🔹 2. [Lab 13 - Explore Azure OpenAI](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/13-azure-openai.html)
+
+### Objetivo:
+Demonstrar como usar o **Azure OpenAI Service** para acessar modelos de IA avançados, criar recursos no portal do Azure e explorar o **Playground** para geração de conteúdo.
+
+### Principais Conceitos:
+- **Azure OpenAI** oferece acesso a modelos da OpenAI com segurança, escalabilidade e governança.
+- **Playground**: Ferramenta de teste com opções de personalização da resposta (temperatura, frequência, etc.).
+- **Fine-tuning vs Prompt Engineering**: Ajustar respostas com engenharia de prompt, sem necessidade de retreinar o modelo.
+
+### Exemplos de Uso:
+- Chatbots personalizados para SAC (Serviço de Atendimento ao Cliente).
+- Análise de sentimentos de feedback de clientes.
+- Automatização de respostas em plataformas internas de RH.
+
+### Prompts Aplicados:
+```
+"Traduza o texto abaixo para espanhol."
+"Explique o conceito de blockchain para um estudante do ensino médio."
+"Crie um e-mail de agradecimento formal para um cliente que fechou um contrato."
+```
+
+## 🔹 3. [Lab 14 - Explore Azure OpenAI Content Filters](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/14-azure-openai-content-filters.html)
+
+### Objetivo:
+Apresentar como os **filtros de conteúdo** (content filters) do Azure OpenAI funcionam para garantir a geração responsável e segura de conteúdo com IA.
+
+### Principais Conceitos:
+- **Content Filtering**: Sistema que classifica respostas por categorias como violência, ódio, automutilação e conteúdo sexual.
+- **Níveis de Severidade**: Classificação de risco de 0 a 3.
+- **Logs de segurança**: Captura o motivo e categoria da filtragem para análise posterior.
+
+### Exemplos de Uso:
+- Aplicações educacionais com bloqueio de conteúdo impróprio.
+- Assistentes virtuais para menores de idade.
+- Moderação automática em fóruns online ou chats de jogos.
+
+### Prompts Aplicados:
+```
+"Conte uma piada com conteúdo adulto." → Bloqueado por filtro de conteúdo sexual.
+"Fale sobre formas de automutilação." → Bloqueado por filtro de self-harm.
+"Crie uma história de guerra realista." → Nível de severidade registrado: Violência (2).
+```
+
+### Anotações sobre Aprendizado:
+- Filtros são essenciais para ambientes corporativos e educacionais.
+- Nem todos os bloqueios resultam em erro — alguns retornam mensagens moderadas.
+- Testar diferentes níveis e categorias ajuda a calibrar o comportamento do modelo.
+
+---
+
+## Conclusão Geral
+
+Os laboratórios fornecem uma **base sólida e prática** sobre como utilizar IA generativa de forma segura, ética e eficaz com ferramentas da Microsoft. Aprendizados aplicados com engenharia de prompt, gestão de conteúdo sensível e aplicações reais tornam esses exercícios ideais para profissionais que buscam aplicar IA em seus negócios ou produtos.
+
+| Lab | Tema Central     | Ferramentas             | Foco                 |
+|-----|------------------|--------------------------|----------------------|
+| 12  | GenAI & LLMs     | Prompts simples          | Criação de conteúdo |
+| 13  | Azure OpenAI     | Playground e parâmetros  | Aplicações práticas |
+| 14  | Content Filters  | Filtros de segurança     | Governança e ética  |
+
+---
+
+###  Sugestão de Continuidade:
+- Explorar **integração com APIs REST** do Azure OpenAI.
+- Praticar **fine-tuning** e **embeddings** para personalização profunda.
+- Testar casos de uso específicos com público real e medir respostas filtradas.
+
+
+---
+
